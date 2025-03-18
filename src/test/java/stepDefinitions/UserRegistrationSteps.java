@@ -22,7 +22,7 @@ public class UserRegistrationSteps {
 
     @Given("User navigates to the home page")
     public void user_navigates_to_home_page() {
-        
+    
     }
 
     @When("User clicks on {string}")

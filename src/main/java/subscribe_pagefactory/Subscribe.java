@@ -5,12 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import basepages.BasePage;
 
 public class Subscribe extends BasePage{
-
 	public Subscribe(WebDriver webDriver) {
 		super(webDriver);
 		PageFactory.initElements(webDriver, this);
@@ -45,12 +43,8 @@ public class Subscribe extends BasePage{
         return message;
 	}
 	
-	public void verifyRequiredFieldMessage(WebElement element, String expectedMessage) {
+	public String verifyRequiredFieldMessage(WebElement element, String expectedMessage) {
 	    String actualMessage = element.getAttribute("validationMessage");
-	    if (actualMessage.equals(expectedMessage)) {
-	    	Assert.assertTrue(true);
-	    } else {
-	    	Assert.assertFalse(false);
-	    }
-	}
+	    return element.getAttribute("validationMessage");	}	
+
 }

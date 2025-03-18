@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
+
 import basepages.BasePage;
 
 public class ContactUs extends BasePage{
@@ -88,13 +88,11 @@ public class ContactUs extends BasePage{
 	        alert.accept();
 
 	    }
-		public void checksuccess() {
-			Assert.assertTrue(successmsg.isDisplayed());
-		}
+		public boolean checksuccess() {
+			return successmsg.isDisplayed();		}
 		
-		public void verifyRequiredFieldMessage(WebElement element, String expectedMessage) {
+		public String verifyRequiredFieldMessage(WebElement element, String expectedMessage) {
 		    String actualMessage = element.getAttribute("validationMessage");
-		    Assert.assertEquals(actualMessage, expectedMessage, "Validation message mismatch");
-		}
+		    return element.getAttribute("validationMessage");		}
 
 }

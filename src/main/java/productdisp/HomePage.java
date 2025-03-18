@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 import basepages.BasePage;
 
@@ -181,14 +180,15 @@ public class HomePage extends BasePage {
     	cartview.isDisplayed();
     }
     
-    public void proddisp() {
+    public boolean proddisp() {
     	WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
-    	Assert.assertTrue(searchedprod.isDisplayed());
+    	return searchedprod.isDisplayed();
     }
     
-    public void verifydisp() {
+    public boolean verifydisp() {
     	WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
-    	Assert.assertTrue(checkcheckout.isDisplayed());
+    	return checkcheckout.isDisplayed();
+
     }
     public void finalstep() {
     	onClick(clickdownload);
