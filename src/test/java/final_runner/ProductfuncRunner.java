@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/features/3Remove.feature",
-        glue = {"stepDefinitions", "baseclass"},
+        glue = {"stepDefinitions", "hooks"},
         plugin=	{
         		"pretty",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"

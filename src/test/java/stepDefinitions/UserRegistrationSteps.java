@@ -3,7 +3,7 @@ package stepDefinitions;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import baseclass.Hooks;
+import Hooks.Hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -22,7 +22,7 @@ public class UserRegistrationSteps {
 
     @Given("User navigates to the home page")
     public void user_navigates_to_home_page() {
-    
+        
     }
 
     @When("User clicks on {string}")

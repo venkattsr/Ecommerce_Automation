@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import basepages.BasePage;
 
 public class Subscribe extends BasePage{
+
 	public Subscribe(WebDriver webDriver) {
 		super(webDriver);
 		PageFactory.initElements(webDriver, this);

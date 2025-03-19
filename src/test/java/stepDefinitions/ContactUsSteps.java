@@ -2,7 +2,7 @@ package stepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 
-import baseclass.Hooks;
+import Hooks.Hooks;
 import contact.ContactUs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -50,8 +50,8 @@ public class ContactUsSteps {
 	}
 
 	@When("User Should Fill the contact form {string} {string} {string} {string} {string}")
-	public void user_should_fill_the_contact_form(String string, String string2, String string3, String string4, String string5) {
-	    contact.fillform(string, string2, string3, string4, string5);
+	public void user_should_fill_the_contact_form(String name, String mailid, String contmsg, String subject, String filepath) {
+	    contact.fillform(name, mailid, contmsg, subject, filepath);
 	    
 	}
 
@@ -67,7 +67,7 @@ public class ContactUsSteps {
 	
 	@Then("User should get the error message")
 	public void user_should_get_the_error_message() {
-		contact.verifyRequiredFieldMessage(contact.contactemail, "Please fill in this field.");
+		contact.verifyRequiredFieldMessage(contact.contactemail, "Please fill out this field.");
 	}
 
 	@Then("User can confirm that the form is submitted")

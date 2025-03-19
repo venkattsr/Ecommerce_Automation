@@ -4,8 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features/ContactUs.feature",
-        glue = {"stepDefinitions", "baseclass"},
+        features = "src/test/resources/features/5Contact.feature",
+        glue = {"stepDefinitions", "hooks"},
         plugin=	{
         		"pretty",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"

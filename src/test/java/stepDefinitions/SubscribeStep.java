@@ -2,7 +2,7 @@ package stepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 
-import baseclass.Hooks;
+import Hooks.Hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
