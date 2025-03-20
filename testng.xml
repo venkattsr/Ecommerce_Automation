@@ -5,9 +5,8 @@
     <classes>
         <class name="final_runner.RegistrationRunner"></class>
   		<class name="final_runner.LoginRunner"></class>
-  		<class name="final_runner.CartRunner"></class>
-  		<class name="final_runner.ProductRunner"></class>
-  		<class name="final_runner.ContactRunner"></class>
+  		<class name="final_runner.ProductfuncRunner"></class>
+  		<class name="final_runner.ContactUsRunner"></class>
   		<class name="final_runner.SubscribeRunner"></class>
     </classes>
   </test> <!-- Test -->

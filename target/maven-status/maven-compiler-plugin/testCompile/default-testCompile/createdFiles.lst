@@ -5,6 +5,7 @@ stepDefinitions/RemovingSteps.class
 final_runner/LoginRunner.class
 final_runner/RegistrationRunner.class
 final_runner/ContactUsRunner.class
+stepDefinitions/UserRegistrationSteps.class
 stepDefinitions/UserLoginSteps.class
 final_runner/ProductfuncRunner.class
 stepDefinitions/SubscribeStep.class

@@ -16,4 +16,4 @@ Feature: User Registration and Login Functionality
 
     Examples: 
       | Name    | Email              | Title | Password    | DOB             | Newsletter | Offers | FirstName | LastName | Company | Address    | Address2 | Country | State     | City  | Zipcode | MobileNumber |
-      | Venkata | venkat007@test.com | Mr    | password123 | 14/January/2002 | true       | true   | Venkat    | a        | Testing | 12 Main St | ops      | India   | Tamilnadu | Hosur |  635110 |   9123456789 |
+      | Venkata | vvenkat017@test.com | Mr    | password123 | 14/January/2002 | true       | true   | Venkat    | a        | Testing | 12 Main St | ops      | India   | Tamilnadu | Hosur |  635110 |   9123456789 |
