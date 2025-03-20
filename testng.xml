@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" >
   <test thread-count="5" name="Test">
     <classes>
         <class name="final_runner.RegistrationRunner"></class>
   		<class name="final_runner.LoginRunner"></class>
+  		<class name="final_runner.RemoveRunner"></class>
   		<class name="final_runner.ProductfuncRunner"></class>
   		<class name="final_runner.ContactUsRunner"></class>
   		<class name="final_runner.SubscribeRunner"></class>

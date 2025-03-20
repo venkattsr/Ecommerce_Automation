@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="801.028" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/venkattsr/Downloads/Ecomm/target/test-classes:/Users/venkattsr/Downloads/Ecomm/target/classes:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/Users/venkattsr/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/venkattsr/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/venkattsr/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/venkattsr/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/venkattsr/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/venkattsr/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/venkattsr/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/Users/venkattsr/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/venkattsr/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/venkattsr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/venkattsr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/venkattsr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/venkattsr/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/venkattsr/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/venkattsr/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/venkattsr/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/venkattsr/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/venkattsr/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/venkattsr/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/venkattsr/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/venkattsr/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/venkattsr/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/venkattsr/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/venkattsr/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/venkattsr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-testng/7.20.1/cucumber-testng-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/venkattsr/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/venkattsr/.m2/repository/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar:/Users/venkattsr/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/venkattsr/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/venkattsr/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/venkattsr/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/venkattsr/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/venkattsr/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/venkattsr/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/venkattsr/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/venkattsr/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/venkattsr/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/venkattsr/.m2/repository/org/assertj/assertj-core/3.27.3/assertj-core-3.27.3.jar:/Users/venkattsr/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/venkattsr/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.24.0/allure-cucumber7-jvm-2.24.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/venkattsr/Downloads/Ecomm/target/surefire/surefirebooter-20250320121258334_3.jar /Users/venkattsr/Downloads/Ecomm/target/surefire 2025-03-20T12-12-58_202-jvmRun1 surefire-20250320121258334_1tmp surefire_0-20250320121258334_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/venkattsr/Downloads/Ecomm/target/test-classes:/Users/venkattsr/Downloads/Ecomm/target/classes:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/Users/venkattsr/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/venkattsr/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/venkattsr/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/venkattsr/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/venkattsr/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/venkattsr/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/venkattsr/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/venkattsr/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/Users/venkattsr/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/Users/venkattsr/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/venkattsr/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/venkattsr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/venkattsr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/venkattsr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/venkattsr/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/venkattsr/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/venkattsr/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/venkattsr/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/venkattsr/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/venkattsr/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/venkattsr/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/venkattsr/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/venkattsr/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/venkattsr/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/venkattsr/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/venkattsr/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/venkattsr/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/venkattsr/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/venkattsr/.m2/repository/io/cucumber/cucumber-testng/7.20.1/cucumber-testng-7.20.1.jar:/Users/venkattsr/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/venkattsr/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/venkattsr/.m2/repository/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar:/Users/venkattsr/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/venkattsr/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/venkattsr/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/venkattsr/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/venkattsr/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/venkattsr/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/venkattsr/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/venkattsr/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/venkattsr/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/venkattsr/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/venkattsr/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/venkattsr/.m2/repository/org/assertj/assertj-core/3.27.3/assertj-core-3.27.3.jar:/Users/venkattsr/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/venkattsr/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-testng/2.29.1/allure-testng-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-java-commons/2.29.1/allure-java-commons-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-model/2.29.1/allure-model-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-test-filter/2.29.1/allure-test-filter-2.29.1.jar:/Users/venkattsr/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.24.0/allure-cucumber7-jvm-2.24.0.jar:/Users/venkattsr/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/venkattsr"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/venkattsr/Downloads/Ecomm"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/venkattsr/Downloads/Ecomm/target/surefire/surefirebooter-20250320121258334_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.14+0"/>
+    <property name="user.name" value="venkattsr"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/venkattsr/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/c2/p6hy5v_x50b9ccb235491slh0000gn/T/"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="/Users/venkattsr/Downloads/Ecomm"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/venkattsr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.14+0"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Register a new user and verifying account creation&quot;, &quot;User Registration and Login Functionality&quot;](1)" classname="final_runner.RegistrationRunner" time="86.417">
+    <system-out><![CDATA[
+Scenario Outline: Register a new user and verifying account creation                     # src/test/resources/features/1Registration.feature:19
+  Given User navigates to the home page                                                  # stepDefinitions.UserRegistrationSteps.user_navigates_to_home_page()
+  When User clicks on "Signup / Login"                                                   # stepDefinitions.UserRegistrationSteps.user_clicks_on(java.lang.String)
+  And User fills out the popup form with name "Venkata" and email "venkat01237@test.com" # stepDefinitions.UserRegistrationSteps.user_fills_out_popup_form(java.lang.String,java.lang.String)
+  And User clicks on "Signup"                                                            # stepDefinitions.UserRegistrationSteps.user_clicks_on(java.lang.String)
+  And User fills out the registration form with the following details:                   # stepDefinitions.UserRegistrationSteps.user_fills_out_registration_form(io.cucumber.datatable.DataTable)
+    | Title | Password    | DOB             | Newsletter | Offers | FirstName | LastName | Company | Address    | Address2 | Country | State     | City  | Zipcode | MobileNumber |
+    | Mr    | password123 | 14/January/2002 | true       | true   | Venkat    | a        | Testing | 12 Main St | ops      | India   | Tamilnadu | Hosur | 635110  | 9123456789   |
+  And User clicks on "Create Account"                                                    # stepDefinitions.UserRegistrationSteps.user_clicks_on(java.lang.String)
+  Then User should see the "ACCOUNT CREATED!" message                                    # stepDefinitions.UserRegistrationSteps.user_should_see_the_message(java.lang.String)
+  And User clicks on Continue                                                            # stepDefinitions.UserRegistrationSteps.user_clicks_on_continue()
+  And User logs out successfully                                                         # stepDefinitions.UserRegistrationSteps.user_logs_out_successfully()
+  And User should be redirected to the homepage                                          # stepDefinitions.UserRegistrationSteps.user_should_be_redirected_to_the_homepage()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Register a new user and verifying account creation_20250320_121425.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:13:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid and invalid credentials&quot;, &quot;User Login Functionality&quot;](1)" classname="final_runner.LoginRunner" time="46.642">
+    <system-out><![CDATA[
+Scenario Outline: Login with valid and invalid credentials             # src/test/resources/features/2Login.feature:12
+  Given User navigating to the home page                               # stepDefinitions.UserLoginSteps.user_navigates_to_home_page()
+  When User clicks on the "Signup / Login"                             # stepDefinitions.UserLoginSteps.user_clicks_on(java.lang.String)
+  And User enters email "venkat07@test.com" and password "password123" # stepDefinitions.UserLoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)
+  And User clicks on the "Login"                                       # stepDefinitions.UserLoginSteps.user_clicks_on(java.lang.String)
+  Then User should see the message "Logged in as Venkata"              # stepDefinitions.UserLoginSteps.user_should_see_message(java.lang.String)
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Login with valid and invalid credentials_20250320_121511.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:14:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid credentials&quot;, &quot;User Login Functionality&quot;](2)" classname="final_runner.LoginRunner" time="112.252">
+    <system-out><![CDATA[
+Scenario Outline: Login with invalid credentials                               # src/test/resources/features/2Login.feature:23
+  Given User navigating to the home page                                       # stepDefinitions.UserLoginSteps.user_navigates_to_home_page()
+  When User clicks on the "Signup / Login"                                     # stepDefinitions.UserLoginSteps.user_clicks_on(java.lang.String)
+  And User enters email "invalid.user@test.com" and password "wrongPassword"   # stepDefinitions.UserLoginSteps.user_enters_email_and_password(java.lang.String,java.lang.String)
+  And User clicks on the "Login"                                               # stepDefinitions.UserLoginSteps.user_clicks_on(java.lang.String)
+  Then User should see an error message "Your email or password is incorrect!" # stepDefinitions.UserLoginSteps.user_should_see_an_error_message(java.lang.String)
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Login with invalid credentials_20250320_121704.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:15:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for a product, adds it to the cart, and Removes item from the cart&quot;, &quot;Removing Item Functionality&quot;](1)" classname="final_runner.RemoveRunner" time="78.935">
+    <system-out><![CDATA[
+Scenario: User searches for a product, adds it to the cart, and Removes item from the cart # src/test/resources/features/3Remove.feature:3
+  Given User on the homepage                                                               # stepDefinitions.RemovingSteps.user_on_the_homepage()
+  When User logging in with valid credentials                                              # stepDefinitions.RemovingSteps.user_logging_in_with_valid_credentials()
+  And User navigating to the products page                                                 # stepDefinitions.RemovingSteps.user_navigating_to_the_products_page()
+  And User searches the product "Blue Top"                                                 # stepDefinitions.RemovingSteps.user_searches_the_product(java.lang.String)
+  And User adds that product to the cart                                                   # stepDefinitions.RemovingSteps.user_adds_that_product_to_the_cart()
+  And User removes item from the cart                                                      # stepDefinitions.RemovingSteps.user_removes_item_from_the_cart()
+  Then User should see the cart is empty                                                   # stepDefinitions.RemovingSteps.user_should_see_the_cart_is_empty()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/User searches for a product, adds it to the cart, and Removes item from the cart_20250320_121823.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:17:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;After logging in User searches for a product&quot;, &quot;Removing Item Functionality&quot;](2)" classname="final_runner.RemoveRunner" time="59.034">
+    <system-out><![CDATA[
+Scenario: After logging in User searches for a product # src/test/resources/features/3Remove.feature:12
+  Given User on the homepage                           # stepDefinitions.RemovingSteps.user_on_the_homepage()
+  When User logging in with valid credentials          # stepDefinitions.RemovingSteps.user_logging_in_with_valid_credentials()
+  And User navigating to the products page             # stepDefinitions.RemovingSteps.user_navigating_to_the_products_page()
+  And User searches the product "Blue Top"             # stepDefinitions.RemovingSteps.user_searches_the_product(java.lang.String)
+  Then User should be able to see the product          # stepDefinitions.RemovingSteps.user_should_be_able_to_see_the_product()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/After logging in User searches for a product_20250320_121922.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:18:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for a product, adds it to the cart, and Removes item from the cart&quot;, &quot;Removing Item Functionality&quot;](3)" classname="final_runner.RemoveRunner" time="72.732">
+    <system-out><![CDATA[
+Scenario: User searches for a product, adds it to the cart, and Removes item from the cart # src/test/resources/features/3Remove.feature:19
+  Given User on the homepage                                                               # stepDefinitions.RemovingSteps.user_on_the_homepage()
+  When User logging in with valid credentials                                              # stepDefinitions.RemovingSteps.user_logging_in_with_valid_credentials()
+  And User navigating to the products page                                                 # stepDefinitions.RemovingSteps.user_navigating_to_the_products_page()
+  And User searches the product "Blue Top"                                                 # stepDefinitions.RemovingSteps.user_searches_the_product(java.lang.String)
+  And User adds that product to the cart                                                   # stepDefinitions.RemovingSteps.user_adds_that_product_to_the_cart()
+  Then User can see the product in the ViewCart                                            # stepDefinitions.RemovingSteps.user_can_see_the_product_in_the_ViewCart()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/User searches for a product, adds it to the cart, and Removes item from the cart_20250320_122034.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:19:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for a product, adds it to the cart, and Removes item from the cart&quot;, &quot;Removing Item Functionality&quot;](4)" classname="final_runner.RemoveRunner" time="73.884">
+    <system-out><![CDATA[
+Scenario: User searches for a product, adds it to the cart, and Removes item from the cart # src/test/resources/features/3Remove.feature:27
+  Given User on the homepage                                                               # stepDefinitions.RemovingSteps.user_on_the_homepage()
+  When User logging in with valid credentials                                              # stepDefinitions.RemovingSteps.user_logging_in_with_valid_credentials()
+  And User navigating to the products page                                                 # stepDefinitions.RemovingSteps.user_navigating_to_the_products_page()
+  And User searches the product "Blue Top"                                                 # stepDefinitions.RemovingSteps.user_searches_the_product(java.lang.String)
+  And User adds that product to the cart                                                   # stepDefinitions.RemovingSteps.user_adds_that_product_to_the_cart()
+  And User proceeds to the checkout page                                                   # stepDefinitions.RemovingSteps.user_proceeds_to_the_checkout_page()
+  Then It should show the order section                                                    # stepDefinitions.RemovingSteps.it_should_show_the_order_section()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/User searches for a product, adds it to the cart, and Removes item from the cart_20250320_122148.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:20:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for a product, adds it to the cart, and completes the checkout process&quot;, &quot;Product Search and Checkout Flow&quot;](1)" classname="final_runner.ProductfuncRunner" time="95.384">
+    <system-out><![CDATA[
+Scenario: User searches for a product, adds it to the cart, and completes the checkout process # src/test/resources/features/4Product.feature:3
+  Given User is on the homepage                                                                # stepDefinitions.ProductSteps.user_is_on_the_homepage()
+  When User logs in with valid credentials                                                     # stepDefinitions.ProductSteps.user_logs_in_with_valid_credentials()
+  And User navigates to the products page                                                      # stepDefinitions.ProductSteps.user_navigates_to_the_products_page()
+  And User searches for the product "Blue Top"                                                 # stepDefinitions.ProductSteps.user_searches_for_the_product(java.lang.String)
+  And User adds the product to the cart                                                        # stepDefinitions.ProductSteps.user_adds_the_product_to_the_cart()
+  And User proceeds to checkout                                                                # stepDefinitions.ProductSteps.user_proceeds_to_checkout()
+  And User enters card details "Visa" "12334548959" "435" "02" "2028"                          # stepDefinitions.ProductSteps.user_enters_card_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then User should see the order confirmation message                                          # stepDefinitions.ProductSteps.user_should_see_the_order_confirmation_message()
+  And User downloads the invoice and continues shopping                                        # stepDefinitions.ProductSteps.user_downloads_the_invoice_and_continues_shopping()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/User searches for a product, adds it to the cart, and completes the checkout process_20250320_122324.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:21:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Providing Valid Information and Submitting the contact form&quot;, &quot;Handling the contactus Functionality&quot;](1)" classname="final_runner.ContactUsRunner" time="49.437">
+    <system-out><![CDATA[
+Scenario: Providing Valid Information and Submitting the contact form                                                                                           # src/test/resources/features/5Contact.feature:3
+  Given User Should be on Home Page                                                                                                                             # stepDefinitions.ContactUsSteps.user_should_be_on_home_page()
+  When User should click Loginbutton                                                                                                                            # stepDefinitions.ContactUsSteps.user_should_click_loginbutton()
+  And User Should Enter Valid Credentials "venkat07@exam.com" and "password123"                                                                                 # stepDefinitions.ContactUsSteps.user_should_enter_valid_credentials_and(java.lang.String,java.lang.String)
+  And User should click Login button                                                                                                                            # stepDefinitions.ContactUsSteps.user_should_click_login_button()
+  And User can see the logged in homepage                                                                                                                       # stepDefinitions.ContactUsSteps.user_can_see_the_logged_in_homepage()
+  And User should click Contact Us                                                                                                                              # stepDefinitions.ContactUsSteps.user_should_click_contact_us()
+  And User Should Fill the contact form "Venkat" "venkat07@exam.com" "About Product" "Check the attached file" "/Users/venkattsr/Downloads/Ecomm/./screenshots" # stepDefinitions.ContactUsSteps.user_should_fill_the_contact_form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+Alert Text: Press OK to proceed!
+  And User Should click the submit and handle alert                                                                                                             # stepDefinitions.ContactUsSteps.user_should_click_the_submit_and_handle_alert()
+  Then User can confirm that the form is submitted                                                                                                              # stepDefinitions.ContactUsSteps.user_can_confirm_that_the_form_is_submitted()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Providing Valid Information and Submitting the contact form_20250320_122413.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:23:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Providing Information with missing fields to verify error message&quot;, &quot;Handling the contactus Functionality&quot;](2)" classname="final_runner.ContactUsRunner" time="54.336">
+    <system-out><![CDATA[
+Scenario: Providing Information with missing fields to verify error message                                                                    # src/test/resources/features/5Contact.feature:14
+  Given User Should be on Home Page                                                                                                            # stepDefinitions.ContactUsSteps.user_should_be_on_home_page()
+  When User should click Loginbutton                                                                                                           # stepDefinitions.ContactUsSteps.user_should_click_loginbutton()
+  And User Should Enter Valid Credentials "venkat07@exam.com" and "password123"                                                                # stepDefinitions.ContactUsSteps.user_should_enter_valid_credentials_and(java.lang.String,java.lang.String)
+  And User should click Login button                                                                                                           # stepDefinitions.ContactUsSteps.user_should_click_login_button()
+  And User can see the logged in homepage                                                                                                      # stepDefinitions.ContactUsSteps.user_can_see_the_logged_in_homepage()
+  And User should click Contact Us                                                                                                             # stepDefinitions.ContactUsSteps.user_should_click_contact_us()
+  And User Should Fill the contact form "Venkat" "" "About Product" "Check the attached file" "/Users/venkattsr/Downloads/Ecomm/./screenshots" # stepDefinitions.ContactUsSteps.user_should_fill_the_contact_form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And Try to click the submit button without Email                                                                                             # stepDefinitions.ContactUsSteps.try_to_click_the_submit_button_without_email()
+  Then User should get the error message                                                                                                       # stepDefinitions.ContactUsSteps.user_should_get_the_error_message()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Providing Information with missing fields to verify error message_20250320_122507.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:24:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Subscribing with Valid Email&quot;, &quot;Checking the Subscription Section&quot;](1)" classname="final_runner.SubscribeRunner" time="37.37">
+    <system-out><![CDATA[
+Scenario: Subscribing with Valid Email                   # src/test/resources/features/6Subscribe.feature:3
+  Given User should be on the HomePage                   # stepDefinitions.SubscribeStep.user_should_be_on_the_home_page()
+  When User ScrollDown to the Subscribe Section          # stepDefinitions.SubscribeStep.user_scroll_down_to_the_subscribe_section()
+  And User Enters the Valid Email "venkat07@project.com" # stepDefinitions.SubscribeStep.user_enters_the_valid_email(java.lang.String)
+  And User Clicks the Submit button                      # stepDefinitions.SubscribeStep.user_clicks_the_submit_button()
+Success Message: You have been successfully subscribed!
+  Then User can see the Successfully Registerd Message   # stepDefinitions.SubscribeStep.user_can_see_the_successfully_registerd_message()
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Subscribing with Valid Email_20250320_122545.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:25:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Tries to Subscribe with InValid Email&quot;, &quot;Checking the Subscription Section&quot;](2)" classname="final_runner.SubscribeRunner" time="34.084">
+    <system-out><![CDATA[
+Scenario: Tries to Subscribe with InValid Email                                                    # src/test/resources/features/6Subscribe.feature:10
+  Given User should be on the HomePage                                                             # stepDefinitions.SubscribeStep.user_should_be_on_the_home_page()
+  When User ScrollDown to the Subscribe Section                                                    # stepDefinitions.SubscribeStep.user_scroll_down_to_the_subscribe_section()
+  And User Enters the Invalid Email "subscribe11@hotmail.com"                                      # stepDefinitions.SubscribeStep.user_enters_the_invalid_email(java.lang.String)
+  And User Clicks the Submit button                                                                # stepDefinitions.SubscribeStep.user_clicks_the_submit_button()
+  Then User Should See "Please include an '@' in the email-id as 'subscribe11' is missing an '@'." # stepDefinitions.SubscribeStep.user_should_see(java.lang.String)
+Screenshot taken: /Users/venkattsr/Downloads/Ecomm/./screenshots/Tries to Subscribe with InValid Email_20250320_122619.png
+]]></system-out>
+    <system-err><![CDATA[Mar 20, 2025 12:25:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+</testsuite>

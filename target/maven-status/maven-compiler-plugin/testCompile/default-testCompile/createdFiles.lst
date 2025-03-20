@@ -1,4 +1,5 @@
 Hooks/Hooks.class
+final_runner/RemoveRunner.class
 final_runner/SubscribeRunner.class
 stepDefinitions/ProductSteps.class
 stepDefinitions/RemovingSteps.class
